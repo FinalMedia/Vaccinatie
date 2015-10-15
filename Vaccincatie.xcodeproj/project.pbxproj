@@ -17,6 +17,8 @@
 		4D103A9E1BCE8A50002E3656 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D103A951BCE8A50002E3656 /* Ubuntu-Regular.ttf */; settings = {ASSET_TAGS = (); }; };
 		4D103A9F1BCE8A50002E3656 /* ubuntu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D103A961BCE8A50002E3656 /* ubuntu.ttf */; settings = {ASSET_TAGS = (); }; };
 		4D103AA21BCE9F20002E3656 /* afsprakenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D103AA11BCE9F20002E3656 /* afsprakenViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4D22B7B71BCFD22F00C982ED /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22B7B61BCFD22F00C982ED /* loginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4D22B7BA1BCFD35B00C982ED /* UIImage+UIImageExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22B7B91BCFD35B00C982ED /* UIImage+UIImageExtension.m */; settings = {ASSET_TAGS = (); }; };
 		4DA53FAB1BCE77C6004B827A /* rvpinfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53FAA1BCE77C6004B827A /* rvpinfoViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4DA53FB11BCE77F8004B827A /* instellingenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53FB01BCE77F8004B827A /* instellingenViewController.m */; settings = {ASSET_TAGS = (); }; };
 		4DA53FB41BCE78EF004B827A /* rivmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53FB31BCE78EF004B827A /* rivmViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -62,6 +64,10 @@
 		4D103A961BCE8A50002E3656 /* ubuntu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ubuntu.ttf; sourceTree = "<group>"; };
 		4D103AA01BCE9F20002E3656 /* afsprakenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = afsprakenViewController.h; sourceTree = "<group>"; };
 		4D103AA11BCE9F20002E3656 /* afsprakenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = afsprakenViewController.m; sourceTree = "<group>"; };
+		4D22B7B51BCFD22F00C982ED /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		4D22B7B61BCFD22F00C982ED /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		4D22B7B81BCFD35B00C982ED /* UIImage+UIImageExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImageExtension.h"; sourceTree = "<group>"; };
+		4D22B7B91BCFD35B00C982ED /* UIImage+UIImageExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIImageExtension.m"; sourceTree = "<group>"; };
 		4DA53FA91BCE77C6004B827A /* rvpinfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rvpinfoViewController.h; sourceTree = "<group>"; };
 		4DA53FAA1BCE77C6004B827A /* rvpinfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rvpinfoViewController.m; sourceTree = "<group>"; };
 		4DA53FAF1BCE77F8004B827A /* instellingenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = instellingenViewController.h; sourceTree = "<group>"; };
@@ -212,6 +218,8 @@
 				4DA53FB31BCE78EF004B827A /* rivmViewController.m */,
 				4D103AA01BCE9F20002E3656 /* afsprakenViewController.h */,
 				4D103AA11BCE9F20002E3656 /* afsprakenViewController.m */,
+				4D22B7B51BCFD22F00C982ED /* loginViewController.h */,
+				4D22B7B61BCFD22F00C982ED /* loginViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -221,6 +229,8 @@
 			children = (
 				4DF3E9461BAAF0A2005614A8 /* General */,
 				4DF3E93D1BAAE5F1005614A8 /* SWRevealViewController */,
+				4D22B7B81BCFD35B00C982ED /* UIImage+UIImageExtension.h */,
+				4D22B7B91BCFD35B00C982ED /* UIImage+UIImageExtension.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -377,12 +387,14 @@
 				4DA53FB11BCE77F8004B827A /* instellingenViewController.m in Sources */,
 				4DF3E9121BAAE4FA005614A8 /* ViewController.m in Sources */,
 				4DF3E9491BAAF0C9005614A8 /* GeneralSettings.m in Sources */,
+				4D22B7B71BCFD22F00C982ED /* loginViewController.m in Sources */,
 				4DF3E90F1BAAE4FA005614A8 /* AppDelegate.m in Sources */,
 				4DF3E90C1BAAE4FA005614A8 /* main.m in Sources */,
 				4D103AA21BCE9F20002E3656 /* afsprakenViewController.m in Sources */,
 				4DA53FAB1BCE77C6004B827A /* rvpinfoViewController.m in Sources */,
 				4DF3E9401BAAE5F1005614A8 /* SWRevealViewController.m in Sources */,
 				4DF3E9431BAAE8B6005614A8 /* MenuViewController.m in Sources */,
+				4D22B7BA1BCFD35B00C982ED /* UIImage+UIImageExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

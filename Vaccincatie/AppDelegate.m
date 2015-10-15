@@ -8,9 +8,16 @@
 
 #import "AppDelegate.h"
 
+
+
+
 @interface AppDelegate ()
 
+
+
 @end
+
+
 
 @implementation AppDelegate
 
@@ -24,6 +31,7 @@
     //addStatusBar.tintColor = [UIColor whiteColor];
     //[[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleLightContent];
     [self.window.rootViewController.view addSubview:addStatusBar];
+    
     
     //notification stuff
     if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)]){
@@ -41,6 +49,8 @@
         [[NSNotificationCenter defaultCenter] postNotificationName:@"localNotificationReceived" object:nil userInfo:remoteNotificationPayload];
     }
     
+    //set it to 0
+    [self saveData:@"badgeCounter" withObject:[NSString stringWithFormat:@"%d",0]];
     
     
     return YES;
@@ -48,6 +58,7 @@
 
 - (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
 {
+    
     UIApplicationState state = [application applicationState];
     if (state == UIApplicationStateActive) {
         
@@ -67,7 +78,11 @@
         
         
         [alert addAction:ok];
+        
+
         [self.window.rootViewController presentViewController:alert animated:true completion:nil];
+ 
+        
         
     }
     //NSLog(@"appdelegate: %@",notification.userInfo);
@@ -125,6 +140,23 @@
         return nil;
     }
     
+}
+
+#pragma mark state preservation / restoration
+
+- (BOOL)application:(UIApplication *)application shouldSaveApplicationState:(NSCoder *)coder
+{
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application shouldRestoreApplicationState:(NSCoder *)coder
+{
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    return YES;
 }
 
 @end

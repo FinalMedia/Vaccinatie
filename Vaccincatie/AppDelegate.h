@@ -10,10 +10,10 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) NSUserDefaults *settings;
-
 
 
 -(id)readData:(NSString *)key;

@@ -12,6 +12,7 @@
 @interface ViewController () {
     
     NSArray *tableData;
+    AppDelegate *appDelegate;
 }
 
 @end
@@ -19,6 +20,16 @@
 @implementation ViewController
 
 @synthesize revealButtonItem=_revealButtonItem, buttonView=_buttonView,headerView=_headerView;
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didlocalNotificationReceived:) name:@"localNotificationReceived" object:nil];
+    }
+    return self;
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -39,11 +50,38 @@
         
     }
     
-    [self createNotifLabel: 1];
+   // [self createNotifLabel: 1];
     [self setMainButtons];
+    
+    NSString *counterStr = [appDelegate readData:@"badgeNo"];
+    if (counterStr == nil)
+    {
+        counterStr = [NSString stringWithFormat:@"%d",0];
+        [appDelegate saveData:@"badgeCounter" withObject:counterStr];
+    }
+    
+    int counter = [counterStr intValue];
+    
+    if (counter>0)
+    {
+        [self createNotifLabel:counter];
+    }
+    
     
 }
 
+
+-(void)viewDidAppear:(BOOL)animated {
+    UILocalNotification* localNotification = [[UILocalNotification alloc] init];
+    localNotification.fireDate = [NSDate dateWithTimeIntervalSinceNow:10.0];
+    localNotification.alertBody = @"Uitslag van uw hielprik is binnen";
+    localNotification.alertAction = @"Goed nieuws bericht";
+    localNotification.soundName = UILocalNotificationDefaultSoundName;
+    localNotification.timeZone = [NSTimeZone defaultTimeZone];
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
+    
+}
 
 
 -(void)createNotifLabel:(int)badgeNo {
@@ -177,6 +215,25 @@
     
 }
 
+
+#pragma mark delegates
+
+- (void)didlocalNotificationReceived:(NSNotification *)notification {
+    NSLog(@"triggered notification");
+    NSString *counterStr = [appDelegate readData:@"badgeNo"];
+    if (counterStr == nil)
+    {
+        counterStr = [NSString stringWithFormat:@"%d",0];
+    }
+    
+    int counter = [counterStr intValue];
+    counter++;
+    
+    [appDelegate saveData:@"badgeCounter" withObject:[NSString stringWithFormat:@"%d",counter]];
+    
+    
+    [self createNotifLabel: counter];
+}
 
 
 
