@@ -37,7 +37,6 @@
         menuButton.tintColor = [UIColor whiteColor];
         self.navigationItem.leftBarButtonItem = menuButton;
         [self.navigationController.navigationBar addGestureRecognizer:revealViewController.panGestureRecognizer];
-        NSLog(@"IWASHERE");
     }
     
 }
