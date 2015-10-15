@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D103A971BCE8A50002E3656 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D103A8E1BCE8A50002E3656 /* Ubuntu-Bold.ttf */; settings = {ASSET_TAGS = (); }; };
+		4D103A981BCE8A50002E3656 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D103A8F1BCE8A50002E3656 /* Ubuntu-BoldItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		4D103A991BCE8A50002E3656 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D103A901BCE8A50002E3656 /* Ubuntu-Italic.ttf */; settings = {ASSET_TAGS = (); }; };
+		4D103A9A1BCE8A50002E3656 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D103A911BCE8A50002E3656 /* Ubuntu-Light.ttf */; settings = {ASSET_TAGS = (); }; };
+		4D103A9B1BCE8A50002E3656 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D103A921BCE8A50002E3656 /* Ubuntu-LightItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		4D103A9C1BCE8A50002E3656 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D103A931BCE8A50002E3656 /* Ubuntu-Medium.ttf */; settings = {ASSET_TAGS = (); }; };
+		4D103A9D1BCE8A50002E3656 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D103A941BCE8A50002E3656 /* Ubuntu-MediumItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		4D103A9E1BCE8A50002E3656 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D103A951BCE8A50002E3656 /* Ubuntu-Regular.ttf */; settings = {ASSET_TAGS = (); }; };
+		4D103A9F1BCE8A50002E3656 /* ubuntu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D103A961BCE8A50002E3656 /* ubuntu.ttf */; settings = {ASSET_TAGS = (); }; };
+		4D103AA21BCE9F20002E3656 /* afsprakenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D103AA11BCE9F20002E3656 /* afsprakenViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4DA53FAB1BCE77C6004B827A /* rvpinfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53FAA1BCE77C6004B827A /* rvpinfoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4DA53FB11BCE77F8004B827A /* instellingenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53FB01BCE77F8004B827A /* instellingenViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4DA53FB41BCE78EF004B827A /* rivmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA53FB31BCE78EF004B827A /* rivmViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4DF3E90C1BAAE4FA005614A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3E90B1BAAE4FA005614A8 /* main.m */; };
+		4DF3E90F1BAAE4FA005614A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3E90E1BAAE4FA005614A8 /* AppDelegate.m */; };
+		4DF3E9121BAAE4FA005614A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3E9111BAAE4FA005614A8 /* ViewController.m */; };
+		4DF3E9151BAAE4FA005614A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF3E9131BAAE4FA005614A8 /* Main.storyboard */; };
+		4DF3E9171BAAE4FA005614A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF3E9161BAAE4FA005614A8 /* Assets.xcassets */; };
+		4DF3E91A1BAAE4FA005614A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF3E9181BAAE4FA005614A8 /* LaunchScreen.storyboard */; };
+		4DF3E9251BAAE4FA005614A8 /* VaccincatieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3E9241BAAE4FA005614A8 /* VaccincatieTests.m */; };
+		4DF3E9301BAAE4FA005614A8 /* VaccincatieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3E92F1BAAE4FA005614A8 /* VaccincatieUITests.m */; };
+		4DF3E9401BAAE5F1005614A8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3E93F1BAAE5F1005614A8 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4DF3E9431BAAE8B6005614A8 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3E9421BAAE8B6005614A8 /* MenuViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4DF3E9491BAAF0C9005614A8 /* GeneralSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3E9481BAAF0C9005614A8 /* GeneralSettings.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DF3E9211BAAE4FA005614A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF3E8FF1BAAE4FA005614A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF3E9061BAAE4FA005614A8;
+			remoteInfo = Vaccincatie;
+		};
+		4DF3E92C1BAAE4FA005614A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF3E8FF1BAAE4FA005614A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF3E9061BAAE4FA005614A8;
+			remoteInfo = Vaccincatie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D103A8E1BCE8A50002E3656 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		4D103A8F1BCE8A50002E3656 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4D103A901BCE8A50002E3656 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		4D103A911BCE8A50002E3656 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		4D103A921BCE8A50002E3656 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		4D103A931BCE8A50002E3656 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		4D103A941BCE8A50002E3656 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4D103A951BCE8A50002E3656 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		4D103A961BCE8A50002E3656 /* ubuntu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ubuntu.ttf; sourceTree = "<group>"; };
+		4D103AA01BCE9F20002E3656 /* afsprakenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = afsprakenViewController.h; sourceTree = "<group>"; };
+		4D103AA11BCE9F20002E3656 /* afsprakenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = afsprakenViewController.m; sourceTree = "<group>"; };
+		4DA53FA91BCE77C6004B827A /* rvpinfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rvpinfoViewController.h; sourceTree = "<group>"; };
+		4DA53FAA1BCE77C6004B827A /* rvpinfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rvpinfoViewController.m; sourceTree = "<group>"; };
+		4DA53FAF1BCE77F8004B827A /* instellingenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = instellingenViewController.h; sourceTree = "<group>"; };
+		4DA53FB01BCE77F8004B827A /* instellingenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = instellingenViewController.m; sourceTree = "<group>"; };
+		4DA53FB21BCE78EF004B827A /* rivmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rivmViewController.h; sourceTree = "<group>"; };
+		4DA53FB31BCE78EF004B827A /* rivmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rivmViewController.m; sourceTree = "<group>"; };
+		4DF3E9071BAAE4FA005614A8 /* Vaccincatie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vaccincatie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF3E90B1BAAE4FA005614A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DF3E90D1BAAE4FA005614A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DF3E90E1BAAE4FA005614A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DF3E9101BAAE4FA005614A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DF3E9111BAAE4FA005614A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DF3E9141BAAE4FA005614A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DF3E9161BAAE4FA005614A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DF3E9191BAAE4FA005614A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DF3E91B1BAAE4FA005614A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF3E9201BAAE4FA005614A8 /* VaccincatieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccincatieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF3E9241BAAE4FA005614A8 /* VaccincatieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaccincatieTests.m; sourceTree = "<group>"; };
+		4DF3E9261BAAE4FA005614A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF3E92B1BAAE4FA005614A8 /* VaccincatieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccincatieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF3E92F1BAAE4FA005614A8 /* VaccincatieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaccincatieUITests.m; sourceTree = "<group>"; };
+		4DF3E9311BAAE4FA005614A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF3E93E1BAAE5F1005614A8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		4DF3E93F1BAAE5F1005614A8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		4DF3E9411BAAE8B6005614A8 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		4DF3E9421BAAE8B6005614A8 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		4DF3E9471BAAF0C9005614A8 /* GeneralSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralSettings.h; sourceTree = "<group>"; };
+		4DF3E9481BAAF0C9005614A8 /* GeneralSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralSettings.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DF3E9041BAAE4FA005614A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF3E91D1BAAE4FA005614A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF3E9281BAAE4FA005614A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DF3E8FE1BAAE4FA005614A8 = {
+			isa = PBXGroup;
+			children = (
+				4DF3E9091BAAE4FA005614A8 /* Vaccincatie */,
+				4DF3E9231BAAE4FA005614A8 /* VaccincatieTests */,
+				4DF3E92E1BAAE4FA005614A8 /* VaccincatieUITests */,
+				4DF3E9081BAAE4FA005614A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DF3E9081BAAE4FA005614A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3E9071BAAE4FA005614A8 /* Vaccincatie.app */,
+				4DF3E9201BAAE4FA005614A8 /* VaccincatieTests.xctest */,
+				4DF3E92B1BAAE4FA005614A8 /* VaccincatieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF3E9091BAAE4FA005614A8 /* Vaccincatie */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3E9451BAAEF49005614A8 /* Controllers */,
+				4DF3E9441BAAEF41005614A8 /* Views */,
+				4DF3E90D1BAAE4FA005614A8 /* AppDelegate.h */,
+				4DF3E90E1BAAE4FA005614A8 /* AppDelegate.m */,
+				4DF3E9131BAAE4FA005614A8 /* Main.storyboard */,
+				4DF3E9161BAAE4FA005614A8 /* Assets.xcassets */,
+				4DF3E9181BAAE4FA005614A8 /* LaunchScreen.storyboard */,
+				4DF3E91B1BAAE4FA005614A8 /* Info.plist */,
+				4DF3E90A1BAAE4FA005614A8 /* Supporting Files */,
+			);
+			path = Vaccincatie;
+			sourceTree = "<group>";
+		};
+		4DF3E90A1BAAE4FA005614A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D103A8E1BCE8A50002E3656 /* Ubuntu-Bold.ttf */,
+				4D103A8F1BCE8A50002E3656 /* Ubuntu-BoldItalic.ttf */,
+				4D103A901BCE8A50002E3656 /* Ubuntu-Italic.ttf */,
+				4D103A911BCE8A50002E3656 /* Ubuntu-Light.ttf */,
+				4D103A921BCE8A50002E3656 /* Ubuntu-LightItalic.ttf */,
+				4D103A931BCE8A50002E3656 /* Ubuntu-Medium.ttf */,
+				4D103A941BCE8A50002E3656 /* Ubuntu-MediumItalic.ttf */,
+				4D103A951BCE8A50002E3656 /* Ubuntu-Regular.ttf */,
+				4D103A961BCE8A50002E3656 /* ubuntu.ttf */,
+				4DF3E90B1BAAE4FA005614A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DF3E9231BAAE4FA005614A8 /* VaccincatieTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3E9241BAAE4FA005614A8 /* VaccincatieTests.m */,
+				4DF3E9261BAAE4FA005614A8 /* Info.plist */,
+			);
+			path = VaccincatieTests;
+			sourceTree = "<group>";
+		};
+		4DF3E92E1BAAE4FA005614A8 /* VaccincatieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3E92F1BAAE4FA005614A8 /* VaccincatieUITests.m */,
+				4DF3E9311BAAE4FA005614A8 /* Info.plist */,
+			);
+			path = VaccincatieUITests;
+			sourceTree = "<group>";
+		};
+		4DF3E93D1BAAE5F1005614A8 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3E93E1BAAE5F1005614A8 /* SWRevealViewController.h */,
+				4DF3E93F1BAAE5F1005614A8 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		4DF3E9441BAAEF41005614A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3E9101BAAE4FA005614A8 /* ViewController.h */,
+				4DF3E9111BAAE4FA005614A8 /* ViewController.m */,
+				4DF3E9411BAAE8B6005614A8 /* MenuViewController.h */,
+				4DF3E9421BAAE8B6005614A8 /* MenuViewController.m */,
+				4DA53FA91BCE77C6004B827A /* rvpinfoViewController.h */,
+				4DA53FAA1BCE77C6004B827A /* rvpinfoViewController.m */,
+				4DA53FAF1BCE77F8004B827A /* instellingenViewController.h */,
+				4DA53FB01BCE77F8004B827A /* instellingenViewController.m */,
+				4DA53FB21BCE78EF004B827A /* rivmViewController.h */,
+				4DA53FB31BCE78EF004B827A /* rivmViewController.m */,
+				4D103AA01BCE9F20002E3656 /* afsprakenViewController.h */,
+				4D103AA11BCE9F20002E3656 /* afsprakenViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4DF3E9451BAAEF49005614A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3E9461BAAF0A2005614A8 /* General */,
+				4DF3E93D1BAAE5F1005614A8 /* SWRevealViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4DF3E9461BAAF0A2005614A8 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3E9471BAAF0C9005614A8 /* GeneralSettings.h */,
+				4DF3E9481BAAF0C9005614A8 /* GeneralSettings.m */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DF3E9061BAAE4FA005614A8 /* Vaccincatie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF3E9341BAAE4FA005614A8 /* Build configuration list for PBXNativeTarget "Vaccincatie" */;
+			buildPhases = (
+				4DF3E9031BAAE4FA005614A8 /* Sources */,
+				4DF3E9041BAAE4FA005614A8 /* Frameworks */,
+				4DF3E9051BAAE4FA005614A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vaccincatie;
+			productName = Vaccincatie;
+			productReference = 4DF3E9071BAAE4FA005614A8 /* Vaccincatie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DF3E91F1BAAE4FA005614A8 /* VaccincatieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF3E9371BAAE4FA005614A8 /* Build configuration list for PBXNativeTarget "VaccincatieTests" */;
+			buildPhases = (
+				4DF3E91C1BAAE4FA005614A8 /* Sources */,
+				4DF3E91D1BAAE4FA005614A8 /* Frameworks */,
+				4DF3E91E1BAAE4FA005614A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF3E9221BAAE4FA005614A8 /* PBXTargetDependency */,
+			);
+			name = VaccincatieTests;
+			productName = VaccincatieTests;
+			productReference = 4DF3E9201BAAE4FA005614A8 /* VaccincatieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DF3E92A1BAAE4FA005614A8 /* VaccincatieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF3E93A1BAAE4FA005614A8 /* Build configuration list for PBXNativeTarget "VaccincatieUITests" */;
+			buildPhases = (
+				4DF3E9271BAAE4FA005614A8 /* Sources */,
+				4DF3E9281BAAE4FA005614A8 /* Frameworks */,
+				4DF3E9291BAAE4FA005614A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF3E92D1BAAE4FA005614A8 /* PBXTargetDependency */,
+			);
+			name = VaccincatieUITests;
+			productName = VaccincatieUITests;
+			productReference = 4DF3E92B1BAAE4FA005614A8 /* VaccincatieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DF3E8FF1BAAE4FA005614A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mark Westenberg";
+				TargetAttributes = {
+					4DF3E9061BAAE4FA005614A8 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					4DF3E91F1BAAE4FA005614A8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4DF3E9061BAAE4FA005614A8;
+					};
+					4DF3E92A1BAAE4FA005614A8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4DF3E9061BAAE4FA005614A8;
+					};
+				};
+			};
+			buildConfigurationList = 4DF3E9021BAAE4FA005614A8 /* Build configuration list for PBXProject "Vaccincatie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DF3E8FE1BAAE4FA005614A8;
+			productRefGroup = 4DF3E9081BAAE4FA005614A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DF3E9061BAAE4FA005614A8 /* Vaccincatie */,
+				4DF3E91F1BAAE4FA005614A8 /* VaccincatieTests */,
+				4DF3E92A1BAAE4FA005614A8 /* VaccincatieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DF3E9051BAAE4FA005614A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D103A9B1BCE8A50002E3656 /* Ubuntu-LightItalic.ttf in Resources */,
+				4D103A971BCE8A50002E3656 /* Ubuntu-Bold.ttf in Resources */,
+				4D103A9D1BCE8A50002E3656 /* Ubuntu-MediumItalic.ttf in Resources */,
+				4D103A9C1BCE8A50002E3656 /* Ubuntu-Medium.ttf in Resources */,
+				4D103A991BCE8A50002E3656 /* Ubuntu-Italic.ttf in Resources */,
+				4D103A9A1BCE8A50002E3656 /* Ubuntu-Light.ttf in Resources */,
+				4D103A9E1BCE8A50002E3656 /* Ubuntu-Regular.ttf in Resources */,
+				4D103A981BCE8A50002E3656 /* Ubuntu-BoldItalic.ttf in Resources */,
+				4DF3E91A1BAAE4FA005614A8 /* LaunchScreen.storyboard in Resources */,
+				4D103A9F1BCE8A50002E3656 /* ubuntu.ttf in Resources */,
+				4DF3E9171BAAE4FA005614A8 /* Assets.xcassets in Resources */,
+				4DF3E9151BAAE4FA005614A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF3E91E1BAAE4FA005614A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF3E9291BAAE4FA005614A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DF3E9031BAAE4FA005614A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA53FB41BCE78EF004B827A /* rivmViewController.m in Sources */,
+				4DA53FB11BCE77F8004B827A /* instellingenViewController.m in Sources */,
+				4DF3E9121BAAE4FA005614A8 /* ViewController.m in Sources */,
+				4DF3E9491BAAF0C9005614A8 /* GeneralSettings.m in Sources */,
+				4DF3E90F1BAAE4FA005614A8 /* AppDelegate.m in Sources */,
+				4DF3E90C1BAAE4FA005614A8 /* main.m in Sources */,
+				4D103AA21BCE9F20002E3656 /* afsprakenViewController.m in Sources */,
+				4DA53FAB1BCE77C6004B827A /* rvpinfoViewController.m in Sources */,
+				4DF3E9401BAAE5F1005614A8 /* SWRevealViewController.m in Sources */,
+				4DF3E9431BAAE8B6005614A8 /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF3E91C1BAAE4FA005614A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF3E9251BAAE4FA005614A8 /* VaccincatieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF3E9271BAAE4FA005614A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF3E9301BAAE4FA005614A8 /* VaccincatieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DF3E9221BAAE4FA005614A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF3E9061BAAE4FA005614A8 /* Vaccincatie */;
+			targetProxy = 4DF3E9211BAAE4FA005614A8 /* PBXContainerItemProxy */;
+		};
+		4DF3E92D1BAAE4FA005614A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF3E9061BAAE4FA005614A8 /* Vaccincatie */;
+			targetProxy = 4DF3E92C1BAAE4FA005614A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DF3E9131BAAE4FA005614A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF3E9141BAAE4FA005614A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DF3E9181BAAE4FA005614A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF3E9191BAAE4FA005614A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DF3E9321BAAE4FA005614A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DF3E9331BAAE4FA005614A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DF3E9351BAAE4FA005614A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vaccincatie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.addcomm.-.Vaccincatie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DF3E9361BAAE4FA005614A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vaccincatie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.addcomm.-.Vaccincatie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DF3E9381BAAE4FA005614A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VaccincatieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.addcomm.-.VaccincatieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaccincatie.app/Vaccincatie";
+			};
+			name = Debug;
+		};
+		4DF3E9391BAAE4FA005614A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VaccincatieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.addcomm.-.VaccincatieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaccincatie.app/Vaccincatie";
+			};
+			name = Release;
+		};
+		4DF3E93B1BAAE4FA005614A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VaccincatieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.addcomm.-.VaccincatieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vaccincatie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4DF3E93C1BAAE4FA005614A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VaccincatieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.addcomm.-.VaccincatieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vaccincatie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DF3E9021BAAE4FA005614A8 /* Build configuration list for PBXProject "Vaccincatie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF3E9321BAAE4FA005614A8 /* Debug */,
+				4DF3E9331BAAE4FA005614A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF3E9341BAAE4FA005614A8 /* Build configuration list for PBXNativeTarget "Vaccincatie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF3E9351BAAE4FA005614A8 /* Debug */,
+				4DF3E9361BAAE4FA005614A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF3E9371BAAE4FA005614A8 /* Build configuration list for PBXNativeTarget "VaccincatieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF3E9381BAAE4FA005614A8 /* Debug */,
+				4DF3E9391BAAE4FA005614A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF3E93A1BAAE4FA005614A8 /* Build configuration list for PBXNativeTarget "VaccincatieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF3E93B1BAAE4FA005614A8 /* Debug */,
+				4DF3E93C1BAAE4FA005614A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DF3E8FF1BAAE4FA005614A8 /* Project object */;
+}
